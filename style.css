@@ -1,0 +1,28 @@
+*{margin:0;padding:0;}
+nav {
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgreen;
+    height:50px;
+}
+nav a{ margin-top:20px;color:black;text-decoration: none; }
+nav p{margin-top: 20px;}
+#tab{color:red;}
+#tab{background-color: red; width: 50px;height:2px;}
+.div{
+    margin-left: 15%;
+    width:85%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.line{
+    justify-items: flex-start;
+}
+.line img{width:400px;}
+button{width:200px;height:100px;}
+#quiz{width:50%;}

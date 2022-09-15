@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Leaves</title>
+</head>
+<body>
+    <p><strong>Score:</strong>10</p>
+    <nav>
+        <a href="index.html">Study</a>
+        <span id="tab"><p>Quiz</p></span>
+        
+    </nav>
+    <div class="div">
+        <script src="quiz.js"></script>
+        <img src="Quiz-img/3.jpeg" id="img">
+        <div class="line">
+            <script>
+                function correctanswer(){
+                alert("Correct");
+                window.open("quiz4.html")
+
+            }
+
+            function falseanswer(){
+                alert("False")
+            }
+            </script>
+            <img src="img/Leaf1024_6.jpg" id="false" onclick="correctanswer()">
+            <img src="img/Leaf1024_5.jpg" id="correct" onclick="falseanswer()">
+        </div>
+    </div>
+
+</body
+</html>
