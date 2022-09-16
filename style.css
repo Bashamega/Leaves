@@ -18,6 +18,7 @@ nav p{margin-top: 20px;}
     width:85%;
     margin-top: 50px;
     margin-bottom: 50px;
+    background-color: lightgreen;
 
 }
 .line{
@@ -26,3 +27,6 @@ nav p{margin-top: 20px;}
 .line img{width:400px;}
 button{width:200px;height:100px;}
 #quiz{width:50%;}
+body{
+    background-color: green;
+}
